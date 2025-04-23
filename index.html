@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Mantosh Das</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="resume/MCV2.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Resume</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <!-- Profile Image -->
+    <img src="images/profile.jpg" alt="Mantosh Das" class="profile-img">
+    <h1>Hi, I'm Mantosh Das</h1>
+    <p class="bold">A passionate Computer Science Student who loves building stuff!</p>
+    <div class="social-icons">
+      <a href="https://github.com/MantoshDas" class="social-icon"><i class="fab fa-github"></i></a>
+      <a href="mailto:mantoshdas2003@example.com" target="_blank" class="social-icon"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/mantoshdas/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+      <a href="resume/MCV2.pdf" target="_blank" class="social-icon" title="View Resume"><i class="fas fa-file-pdf"></i></a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hey there! I’m <strong>Mantosh Das</strong> — a Machine Learning Engineer in training at Lovely Professional University, India. I’m all about transforming data into smart, real-world solutions that make a difference.
+    </p>
+    <p>
+      I live and breathe AI and ML. From building intelligent models to diving deep into the latest tech trends, I'm on a mission to keep learning and innovating. My daily tools of choice? Python, SQL, Java, C/C++, plus all the cool data science libraries like Pandas, NumPy, Scikit-learn, Seaborn, and Matplotlib.
+    </p>
+    <p>
+      I also love turning numbers into insights with data visualization tools like Tableau, Excel, MySQL, and MongoDB. Whether I’m in Jupyter Notebook or Visual Studio Code, I’m all about writing clean, efficient, and purposeful code.
+    </p>
+    <p>
+      I thrive on challenges, especially the ones that push me to grow and build smarter. I'm always exploring new frameworks, tools, and ideas to level up — because in tech, learning never stops.
+    </p>
+    <p>
+      Let’s connect, share ideas, and build something awesome together. 
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+  
+      <div class="project">
+        <img src="images/sarimg.jpeg" alt="SAR Project Screenshot" class="project-img">
+        <div class="project-info">
+          <h3>SAR Image Colorizer</h3>
+          <p><strong>Python, TensorFlow, Keras, Flask</strong> &nbsp; | &nbsp; <strong>Sep’ 24 – Oct’ 24</strong></p>
+          <p>• Created a SAR image colorizer and DE-Speckler using GANs (Generative Adversarial Networks) and FFDNet.<br>
+             • Achieved an F1 score of 0.88 for colorization and 0.91 for de-speckling on validation datasets.<br>
+             • Built a Flask web app that integrated with GAN models.<br>
+             <a href="https://github.com/yourusername/sar-image-colorizer" target="_blank">View on GitHub</a>
+          </p>
+        </div>
+      </div>
+  
+      <div class="project">
+        <img src="images/speechimg.png" alt="Speech Project Screenshot" class="project-img">
+        <div class="project-info">
+          <h3>Speech Recognizer & Summarizer</h3>
+          <p><strong>Python, SpeechRecognition, NLTK, Streamlit</strong> &nbsp; | &nbsp; <strong>Oct’ 23 – Nov’ 23</strong></p>
+          <p>• Built a speech-to-text and summarization tool.<br>
+             • Used SpeechRecognition library and NLP for summarization.<br>
+             • Created a simple Streamlit GUI for transcription.<br>
+             <a href="https://github.com/yourusername/speech-summarizer" target="_blank">View on GitHub</a>
+          </p>
+        </div>
+      </div>
+  
+      <div class="project">
+        <img src="images/healthimg.jpeg" alt="Health Project Screenshot" class="project-img">
+        <div class="project-info">
+          <h3>Heart Disease Prediction</h3>
+          <p><strong>Python, Scikit-learn, Flask</strong> &nbsp; | &nbsp; <strong>Aug’ 23 – Sep’ 23</strong></p>
+          <p>• Developed a machine learning model to predict heart disease risk using classification algorithms.<br>
+             • Achieved 92% accuracy on test data.<br>
+             • Deployed via a Flask-based web interface.<br>
+             <a href="https://github.com/MantoshDas/Heart-Disease-using-EDA" target="_blank">View on GitHub</a>
+          </p>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+
+  <!-- Certificates Section -->
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <div class="certificates-container">
+      <div class="certificate">
+        <img src="images/cloud.png" alt="Certificate 1" class="certificate-img popup-img">
+        <div class="certificate-info">
+          <h3>Cloud Digital Leader Certification</h3>
+          <p>Google – Mar' 25</p>
+        </div>
+      </div>
+
+      <div class="certificate">
+        <img src="images/aws.png" alt="Certificate 2" class="certificate-img popup-img">
+        <div class="certificate-info">
+          <h3> Introduction to Information Technology and AWS Cloud</h3>
+          <p>AWS – Jan' 25</p>
+        </div>
+      </div>
+
+      <div class="certificate">
+        <img src="images/devops.png" alt="Certificate 2" class="certificate-img popup-img">
+        <div class="certificate-info">
+          <h3> IBM DevOps and Software Engineeringn</h3>
+          <p>Coursera – Nov' 24</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Education Section -->
+<section id="education">
+  <h2>Education</h2>
+  <div class="education-container">
+    <div class="education">
+      <div class="education-info">
+        <h3>Lovely Professional University</h3>
+        <p class="bold">Bachelor of Technology (B.Tech) - Computer Science and Engineering</p>
+      </div>
+      <div class="education-location">
+        <p>Phagwara, Punjab</p>
+        <p>Aug '22 - Present</p>
+      </div>
+    </div>
+
+    <div class="education">
+      <div class="education-info">
+        <h3>Sumeet Rahul Goel Memorial School</h3>
+        <p class="bold">Intermediate</p>
+      </div>
+      <div class="education-location">
+        <p>Agra, Uttar Pradesh</p>
+        <p>Jun '20 - Mar '22</p>
+      </div>
+    </div>
+
+    <div class="education">
+      <div class="education-info">
+        <h3>Sunflower Public School</h3>
+        <p class="bold">Matriculation</p>
+      </div>
+      <div class="education-location">
+        <p>Agra, Uttar Pradesh</p>
+        <p>Jul '19 - Mar '20</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skills-carousel-wrapper">
+    <button class="carousel-arrow arrow-left" id="scrollLeft">&#10094;</button>
+
+    <div class="skills-carousel" id="skillsTrack">
+      <div class="skill">
+        <i class="fab fa-html5 skill-icon" style="background: #e34c26;"></i>
+        <span class="skill-label">HTML5</span>
+      </div>
+      <div class="skill">
+        <i class="fab fa-css3-alt skill-icon" style="background: #264de4;"></i>
+        <span class="skill-label">CSS3</span>
+      </div>
+      <div class="skill">
+        <i class="fab fa-js skill-icon" style="background: #f0db4f; color: #323330;"></i>
+        <span class="skill-label">JavaScript</span>
+      </div>
+      <div class="skill">
+        <i class="fab fa-react skill-icon" style="background: #61DBFB; color: #20232a;"></i>
+        <span class="skill-label">React</span>
+      </div>
+      <div class="skill">
+        <i class="fab fa-node-js skill-icon" style="background: #3C873A;"></i>
+        <span class="skill-label">Node.js</span>
+      </div>
+      <div class="skill">
+        <i class="fab fa-python skill-icon" style="background: #4B8BBE;"></i>
+        <span class="skill-label">Python</span>
+      </div>
+      <div class="skill">
+        <i class="fab fa-git-alt skill-icon" style="background: #f05032;"></i>
+        <span class="skill-label">Git</span>
+      </div>
+      <div class="skill">
+        <i class="fab fa-github skill-icon" style="background: #333;"></i>
+        <span class="skill-label">GitHub</span>
+      </div>
+      <div class="skill">
+        <i class="fab fa-bootstrap skill-icon" style="background: #563d7c;"></i>
+        <span class="skill-label">Bootstrap</span>
+      </div>
+      <div class="skill">
+        <i class="fab fa-figma skill-icon" style="background: #a259ff;"></i>
+        <span class="skill-label">Figma</span>
+      </div>
+      <div class="skill">
+        <i class="fab fa-linux skill-icon" style="background: #000000;"></i>
+        <span class="skill-label">Linux</span>
+      </div>
+    </div>
+    
+
+    <button class="carousel-arrow arrow-right" id="scrollRight">&#10095;</button>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mantosh Das. All rights reserved.</p>
+  </footer>
+
+  <!-- Lightbox Modal (optional) -->
+  <div id="lightbox" class="lightbox">
+    <span id="lightbox-close">&times;</span>
+    <img id="lightbox-img" src="#" alt="Popup Image" />
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    const scrollContainer = document.getElementById("skillsTrack");
+    const scrollLeftBtn = document.getElementById("scrollLeft");
+    const scrollRightBtn = document.getElementById("scrollRight");
+  
+    scrollLeftBtn.addEventListener("click", () => {
+      scrollContainer.scrollBy({ left: -200, behavior: 'smooth' });
+    });
+  
+    scrollRightBtn.addEventListener("click", () => {
+      scrollContainer.scrollBy({ left: 200, behavior: 'smooth' });
+    });
+  </script>
+  
+</body>
+</html>
